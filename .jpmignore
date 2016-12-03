@@ -1,18 +1,9 @@
-.DS_Store
-
 .gitignore
 .git
 index.html
-
-# Ignore any zip or xpi files
-*.zip
 *.xpi
 
-# Ignore specific directory
-# You can start patterns with a forward slash (/) to avoid recursivity.
-# You can end patterns with a forward slash (/) to specify a directory.
 data/vendor/
-
 data/chrome-bage.png
 data/firefox-bage.png
 
