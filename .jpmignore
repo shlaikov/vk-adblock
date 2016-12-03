@@ -1,6 +1,7 @@
 .DS_Store
 
 .gitignore
+.git
 index.html
 
 # Ignore any zip or xpi files

@@ -1,19 +1,22 @@
 {
     "locales": {
-        "ru": {
-            "description": "Особое дополнение, чтобы блокировать содержание рекламы на сайте vk.com",
-            "author": "Алексей Шлайков"
+        "en-US": {
+            "description": "A basic add-on to block advertising content on the site vk.com",
+            "author": "Alexey Shlaikov"
         }
     },
     "title": "VK AdBlock",
     "name": "vk-adblock",
-    "version": "0.1.1",
-    "description": "A basic add-on to block advertising content on the site vk.com",
+    "version": "0.1.2",
+    "description": "Особое дополнение, чтобы блокировать содержание рекламы на сайте vk.com",
     "main": "index.js",
-    "author": "Alexey Shlaikov",
+    "author": "Алексей Шлайков",
+    "homepage": "https://shlaikov.github.io/vk-adblock/",
     "engines": {
-        "firefox": ">=38.0a1",
-        "fennec": ">=38.0a1"
+        "firefox": ">=38.0a1"
+    },
+    "permissions": {
+        "multiprocess": true
     },
     "license": "MIT",
     "keywords": [
