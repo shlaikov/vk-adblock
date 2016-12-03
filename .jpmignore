@@ -1,15 +1,15 @@
 .gitignore
 .git
+*.README.md
 index.html
-*.xpi
-
+# data folder
 data/vendor/
 data/chrome-bage.png
 data/firefox-bage.png
-
 data/bg-cta.jpg
 data/bg-pattern.png
 data/webchrome.png
-
 data/new-age.min.js
 data/new-age.min.css
+#kill yourself
+.jpmignore
