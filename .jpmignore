@@ -2,6 +2,7 @@
 .git
 *.README.md
 index.html
+favicon.ico
 # data folder
 data/vendor/
 data/chrome-bage.png

@@ -1,10 +1,24 @@
 'use strict'
 
-var pageMod = require("sdk/page-mod");
 
-pageMod.PageMod({
+require("sdk/page-mod").PageMod({
+
     include: "*.vk.com",
-    contentScriptFile: "./block.js"
+    contentScriptFile: "./block.js",
+
+    onAttach: function () {
+        var preferences = require("sdk/simple-prefs").prefs;
+
+        if (preferences.possible_friends == true) {
+
+            var narrow_column = document.getElementById("narrow_column");
+            var friends_possible = document.getElementById("friends_possible_block");
+
+            if (narrow_column && friends_possible) {
+                narrow_column.removeChild(friends_possible);
+            }
+        }
+    }
 });
 
 

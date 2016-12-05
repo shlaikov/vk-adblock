@@ -16,8 +16,16 @@
         "firefox": ">=38.0a1"
     },
     "permissions": {
-        "multiprocess": true
+        "multiprocess": true,
+        "private-browsing": true
     },
+    "preferences": [{
+        "description": "Если вам мешает панель с возможными друзьями, то вы можете это исключить.",
+        "type": "bool",
+        "name": "possible_friends",
+        "value": false,
+        "title": "Исключить <<Возможные друзья>>"
+    }],
     "license": "MIT",
     "keywords": [
         "jetpack",
