@@ -1,16 +1,20 @@
-(function() {
+(function () {
     'use strict'
+
+    var docker = document.getElementById("side_bar_inner");
+    if (!docker) {
+        return;
+    }
 
     var target = [
         "ads_left",
         "left_ads"
     ];
 
-    for (var i = 0; i < target.length; i++) {
-        var docker = document.getElementById("side_bar_inner");
-        var ads =  document.getElementById(target[i]);
+    for (var i = 0, len = target.length; i < len; i++) {
 
-        if (docker && ads) {
+        var ads = document.getElementById(target[i]);
+        if (ads) {
             docker.removeChild(ads);
         }
     }
