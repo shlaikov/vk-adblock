@@ -2,6 +2,7 @@
     'use strict'
 
     var docker = document.getElementById("side_bar_inner");
+
     if (!docker) {
         return;
     }

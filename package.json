@@ -7,7 +7,7 @@
     },
     "title": "VK AdBlock",
     "name": "vk-adblock",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Особое дополнение, чтобы блокировать содержание рекламы на сайте vk.com",
     "main": "index.js",
     "author": "Алексей Шлайков",
