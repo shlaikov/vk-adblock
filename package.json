@@ -2,7 +2,11 @@
     "locales": {
         "en-US": {
             "description": "A basic add-on to block advertising content on the site vk.com",
-            "author": "Alexey Shlaikov"
+            "author": "Alexey Shlaikov",
+            "preferences": [{
+                "description": "If you disturb the panel from possible friends, you can exclude it.",
+                "title": "Exclude <<Possible friends>>"
+            }]
         }
     },
     "title": "VK AdBlock",
